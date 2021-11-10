@@ -9,8 +9,11 @@ class Book():
         self.number_of_pages = no_of_pages
         # return self
 
-cooking_book = Book('cooking in 1 hour', 'rut', 2020, 'food', 155)
+cooking_book = Book('cooking in 1 hour', 'rut', 2020, \
+                    'food', 155)
 racing_car = Book('formula 1', 'john', 2022, 'fast', 300)
 
 print(cooking_book.__dict__)
+print(vars(cooking_book))
+#print(vars(Book))
 
