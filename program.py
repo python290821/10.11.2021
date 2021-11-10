@@ -60,4 +60,5 @@ class Myname:
 danny = Myname('danny','cohen')
 print(danny)
 print('danny len = ', len(danny))
+print('str = ',str(danny))
 
