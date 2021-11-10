@@ -15,3 +15,8 @@ danny = Person(1, 'danny')
 print(danny) # same as print(danny.__str__())
 suzi = Person(2, 'suzi')
 print(suzi)
+
+# targil:
+# create 2 rectangles with width,
+# height (3, 7) and (9, -12)
+# print the 2 rectangles
